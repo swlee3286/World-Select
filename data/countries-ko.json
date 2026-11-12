@@ -1,0 +1,1184 @@
+[
+ {
+  "code": "RUS",
+  "name": "러시아",
+  "area": 17098242,
+  "continent": "europe"
+ },
+ {
+  "code": "CAN",
+  "name": "캐나다",
+  "area": 9984670,
+  "continent": "north-america"
+ },
+ {
+  "code": "CHN",
+  "name": "중국",
+  "area": 9706961,
+  "continent": "asia"
+ },
+ {
+  "code": "USA",
+  "name": "미국",
+  "area": 9372610,
+  "continent": "north-america"
+ },
+ {
+  "code": "BRA",
+  "name": "브라질",
+  "area": 8515767,
+  "continent": "south-america"
+ },
+ {
+  "code": "AUS",
+  "name": "호주",
+  "area": 7692024,
+  "continent": "oceania"
+ },
+ {
+  "code": "IND",
+  "name": "인도",
+  "area": 3287590,
+  "continent": "asia"
+ },
+ {
+  "code": "ARG",
+  "name": "아르헨티나",
+  "area": 2780400,
+  "continent": "south-america"
+ },
+ {
+  "code": "KAZ",
+  "name": "카자흐스탄",
+  "area": 2724900,
+  "continent": "asia"
+ },
+ {
+  "code": "DZA",
+  "name": "알제리",
+  "area": 2381741,
+  "continent": "africa"
+ },
+ {
+  "code": "COD",
+  "name": "콩고민주공화국",
+  "area": 2344858,
+  "continent": "africa"
+ },
+ {
+  "code": "SAU",
+  "name": "사우디아라비아",
+  "area": 2149690,
+  "continent": "asia"
+ },
+ {
+  "code": "MEX",
+  "name": "멕시코",
+  "area": 1964375,
+  "continent": "north-america"
+ },
+ {
+  "code": "IDN",
+  "name": "인도네시아",
+  "area": 1904569,
+  "continent": "asia"
+ },
+ {
+  "code": "SDN",
+  "name": "수단",
+  "area": 1886068,
+  "continent": "africa"
+ },
+ {
+  "code": "LBY",
+  "name": "리비아",
+  "area": 1759540,
+  "continent": "africa"
+ },
+ {
+  "code": "IRN",
+  "name": "이란",
+  "area": 1648195,
+  "continent": "asia"
+ },
+ {
+  "code": "MNG",
+  "name": "몽골",
+  "area": 1564110,
+  "continent": "asia"
+ },
+ {
+  "code": "PER",
+  "name": "페루",
+  "area": 1285216,
+  "continent": "south-america"
+ },
+ {
+  "code": "TCD",
+  "name": "차드",
+  "area": 1284000,
+  "continent": "africa"
+ },
+ {
+  "code": "NER",
+  "name": "니제르",
+  "area": 1267000,
+  "continent": "africa"
+ },
+ {
+  "code": "AGO",
+  "name": "앙골라",
+  "area": 1246700,
+  "continent": "africa"
+ },
+ {
+  "code": "MLI",
+  "name": "말리",
+  "area": 1240192,
+  "continent": "africa"
+ },
+ {
+  "code": "ZAF",
+  "name": "남아프리카공화국",
+  "area": 1221037,
+  "continent": "africa"
+ },
+ {
+  "code": "COL",
+  "name": "콜롬비아",
+  "area": 1141748,
+  "continent": "south-america"
+ },
+ {
+  "code": "ETH",
+  "name": "에티오피아",
+  "area": 1104300,
+  "continent": "africa"
+ },
+ {
+  "code": "BOL",
+  "name": "볼리비아",
+  "area": 1098581,
+  "continent": "south-america"
+ },
+ {
+  "code": "MRT",
+  "name": "모리타니",
+  "area": 1030700,
+  "continent": "africa"
+ },
+ {
+  "code": "EGY",
+  "name": "이집트",
+  "area": 1002450,
+  "continent": "africa"
+ },
+ {
+  "code": "TZA",
+  "name": "탄자니아",
+  "area": 945087,
+  "continent": "africa"
+ },
+ {
+  "code": "NGA",
+  "name": "나이지리아",
+  "area": 923768,
+  "continent": "africa"
+ },
+ {
+  "code": "VEN",
+  "name": "베네수엘라",
+  "area": 916445,
+  "continent": "south-america"
+ },
+ {
+  "code": "PAK",
+  "name": "파키스탄",
+  "area": 881912,
+  "continent": "asia"
+ },
+ {
+  "code": "NAM",
+  "name": "나미비아",
+  "area": 825615,
+  "continent": "africa"
+ },
+ {
+  "code": "MOZ",
+  "name": "모잠비크",
+  "area": 801590,
+  "continent": "africa"
+ },
+ {
+  "code": "TUR",
+  "name": "튀르키예",
+  "area": 783562,
+  "continent": "asia"
+ },
+ {
+  "code": "CHL",
+  "name": "칠레",
+  "area": 756102,
+  "continent": "south-america"
+ },
+ {
+  "code": "ZMB",
+  "name": "잠비아",
+  "area": 752612,
+  "continent": "africa"
+ },
+ {
+  "code": "MMR",
+  "name": "미얀마",
+  "area": 676578,
+  "continent": "asia"
+ },
+ {
+  "code": "AFG",
+  "name": "아프가니스탄",
+  "area": 652230,
+  "continent": "asia"
+ },
+ {
+  "code": "SOM",
+  "name": "소말리아",
+  "area": 637657,
+  "continent": "africa"
+ },
+ {
+  "code": "CAF",
+  "name": "중앙아프리카공화국",
+  "area": 622984,
+  "continent": "africa"
+ },
+ {
+  "code": "SSD",
+  "name": "남수단",
+  "area": 619745,
+  "continent": "africa"
+ },
+ {
+  "code": "UKR",
+  "name": "우크라이나",
+  "area": 603500,
+  "continent": "europe"
+ },
+ {
+  "code": "MDG",
+  "name": "마다가스카르",
+  "area": 587041,
+  "continent": "africa"
+ },
+ {
+  "code": "BWA",
+  "name": "보츠와나",
+  "area": 582000,
+  "continent": "africa"
+ },
+ {
+  "code": "KEN",
+  "name": "케냐",
+  "area": 580367,
+  "continent": "africa"
+ },
+ {
+  "code": "FRA",
+  "name": "프랑스",
+  "area": 551695,
+  "continent": "europe"
+ },
+ {
+  "code": "YEM",
+  "name": "예멘",
+  "area": 527968,
+  "continent": "asia"
+ },
+ {
+  "code": "THA",
+  "name": "태국",
+  "area": 513120,
+  "continent": "asia"
+ },
+ {
+  "code": "ESP",
+  "name": "스페인",
+  "area": 505992,
+  "continent": "europe"
+ },
+ {
+  "code": "TKM",
+  "name": "투르크메니스탄",
+  "area": 488100,
+  "continent": "asia"
+ },
+ {
+  "code": "CMR",
+  "name": "카메룬",
+  "area": 475442,
+  "continent": "africa"
+ },
+ {
+  "code": "PNG",
+  "name": "파푸아뉴기니",
+  "area": 462840,
+  "continent": "oceania"
+ },
+ {
+  "code": "SWE",
+  "name": "스웨덴",
+  "area": 450295,
+  "continent": "europe"
+ },
+ {
+  "code": "UZB",
+  "name": "우즈베키스탄",
+  "area": 447400,
+  "continent": "asia"
+ },
+ {
+  "code": "MAR",
+  "name": "모로코",
+  "area": 446550,
+  "continent": "africa"
+ },
+ {
+  "code": "IRQ",
+  "name": "이라크",
+  "area": 438317,
+  "continent": "asia"
+ },
+ {
+  "code": "PRY",
+  "name": "파라과이",
+  "area": 406752,
+  "continent": "south-america"
+ },
+ {
+  "code": "ZWE",
+  "name": "짐바브웨",
+  "area": 390757,
+  "continent": "africa"
+ },
+ {
+  "code": "JPN",
+  "name": "일본",
+  "area": 377930,
+  "continent": "asia"
+ },
+ {
+  "code": "DEU",
+  "name": "독일",
+  "area": 357114,
+  "continent": "europe"
+ },
+ {
+  "code": "PHL",
+  "name": "필리핀",
+  "area": 342353,
+  "continent": "asia"
+ },
+ {
+  "code": "COG",
+  "name": "콩고공화국",
+  "area": 342000,
+  "continent": "africa"
+ },
+ {
+  "code": "FIN",
+  "name": "핀란드",
+  "area": 338424,
+  "continent": "europe"
+ },
+ {
+  "code": "VNM",
+  "name": "베트남",
+  "area": 331212,
+  "continent": "asia"
+ },
+ {
+  "code": "MYS",
+  "name": "말레이시아",
+  "area": 330803,
+  "continent": "asia"
+ },
+ {
+  "code": "NOR",
+  "name": "노르웨이",
+  "area": 323802,
+  "continent": "europe"
+ },
+ {
+  "code": "CIV",
+  "name": "코트디부아르",
+  "area": 322463,
+  "continent": "africa"
+ },
+ {
+  "code": "POL",
+  "name": "폴란드",
+  "area": 312679,
+  "continent": "europe"
+ },
+ {
+  "code": "OMN",
+  "name": "오만",
+  "area": 309500,
+  "continent": "asia"
+ },
+ {
+  "code": "ITA",
+  "name": "이탈리아",
+  "area": 301336,
+  "continent": "europe"
+ },
+ {
+  "code": "ECU",
+  "name": "에콰도르",
+  "area": 276841,
+  "continent": "south-america"
+ },
+ {
+  "code": "BFA",
+  "name": "부르키나파소",
+  "area": 272967,
+  "continent": "africa"
+ },
+ {
+  "code": "NZL",
+  "name": "뉴질랜드",
+  "area": 270467,
+  "continent": "oceania"
+ },
+ {
+  "code": "GAB",
+  "name": "가봉",
+  "area": 267668,
+  "continent": "africa"
+ },
+ {
+  "code": "GIN",
+  "name": "기니",
+  "area": 245857,
+  "continent": "africa"
+ },
+ {
+  "code": "GBR",
+  "name": "영국",
+  "area": 242900,
+  "continent": "europe"
+ },
+ {
+  "code": "UGA",
+  "name": "우간다",
+  "area": 241550,
+  "continent": "africa"
+ },
+ {
+  "code": "GHA",
+  "name": "가나",
+  "area": 238533,
+  "continent": "africa"
+ },
+ {
+  "code": "ROU",
+  "name": "루마니아",
+  "area": 238391,
+  "continent": "europe"
+ },
+ {
+  "code": "LAO",
+  "name": "라오스",
+  "area": 236800,
+  "continent": "asia"
+ },
+ {
+  "code": "GUY",
+  "name": "가이아나",
+  "area": 214969,
+  "continent": "south-america"
+ },
+ {
+  "code": "BLR",
+  "name": "벨라루스",
+  "area": 207600,
+  "continent": "europe"
+ },
+ {
+  "code": "KGZ",
+  "name": "키르기스스탄",
+  "area": 199951,
+  "continent": "asia"
+ },
+ {
+  "code": "SEN",
+  "name": "세네갈",
+  "area": 196722,
+  "continent": "africa"
+ },
+ {
+  "code": "SYR",
+  "name": "시리아",
+  "area": 185180,
+  "continent": "asia"
+ },
+ {
+  "code": "KHM",
+  "name": "캄보디아",
+  "area": 181035,
+  "continent": "asia"
+ },
+ {
+  "code": "URY",
+  "name": "우루과이",
+  "area": 181034,
+  "continent": "south-america"
+ },
+ {
+  "code": "SUR",
+  "name": "수리남",
+  "area": 163820,
+  "continent": "south-america"
+ },
+ {
+  "code": "TUN",
+  "name": "튀니지",
+  "area": 163610,
+  "continent": "africa"
+ },
+ {
+  "code": "BGD",
+  "name": "방글라데시",
+  "area": 147570,
+  "continent": "asia"
+ },
+ {
+  "code": "NPL",
+  "name": "네팔",
+  "area": 147181,
+  "continent": "asia"
+ },
+ {
+  "code": "TJK",
+  "name": "타지키스탄",
+  "area": 143100,
+  "continent": "asia"
+ },
+ {
+  "code": "GRC",
+  "name": "그리스",
+  "area": 131990,
+  "continent": "europe"
+ },
+ {
+  "code": "NIC",
+  "name": "니카라과",
+  "area": 130373,
+  "continent": "north-america"
+ },
+ {
+  "code": "PRK",
+  "name": "북한",
+  "area": 120538,
+  "continent": "asia"
+ },
+ {
+  "code": "MWI",
+  "name": "말라위",
+  "area": 118484,
+  "continent": "africa"
+ },
+ {
+  "code": "ERI",
+  "name": "에리트레아",
+  "area": 117600,
+  "continent": "africa"
+ },
+ {
+  "code": "BEN",
+  "name": "베냉",
+  "area": 112622,
+  "continent": "africa"
+ },
+ {
+  "code": "HND",
+  "name": "온두라스",
+  "area": 112492,
+  "continent": "north-america"
+ },
+ {
+  "code": "LBR",
+  "name": "라이베리아",
+  "area": 111369,
+  "continent": "africa"
+ },
+ {
+  "code": "BGR",
+  "name": "불가리아",
+  "area": 110879,
+  "continent": "europe"
+ },
+ {
+  "code": "CUB",
+  "name": "쿠바",
+  "area": 109884,
+  "continent": "north-america"
+ },
+ {
+  "code": "GTM",
+  "name": "과테말라",
+  "area": 108889,
+  "continent": "north-america"
+ },
+ {
+  "code": "ISL",
+  "name": "아이슬란드",
+  "area": 103000,
+  "continent": "europe"
+ },
+ {
+  "code": "KOR",
+  "name": "대한민국",
+  "area": 100210,
+  "continent": "asia"
+ },
+ {
+  "code": "HUN",
+  "name": "헝가리",
+  "area": 93028,
+  "continent": "europe"
+ },
+ {
+  "code": "PRT",
+  "name": "포르투갈",
+  "area": 92090,
+  "continent": "europe"
+ },
+ {
+  "code": "JOR",
+  "name": "요르단",
+  "area": 89342,
+  "continent": "asia"
+ },
+ {
+  "code": "SRB",
+  "name": "세르비아",
+  "area": 88361,
+  "continent": "europe"
+ },
+ {
+  "code": "AZE",
+  "name": "아제르바이잔",
+  "area": 86600,
+  "continent": "asia"
+ },
+ {
+  "code": "AUT",
+  "name": "오스트리아",
+  "area": 83871,
+  "continent": "europe"
+ },
+ {
+  "code": "ARE",
+  "name": "아랍에미리트",
+  "area": 83600,
+  "continent": "asia"
+ },
+ {
+  "code": "CZE",
+  "name": "체코",
+  "area": 78865,
+  "continent": "europe"
+ },
+ {
+  "code": "PAN",
+  "name": "파나마",
+  "area": 75417,
+  "continent": "north-america"
+ },
+ {
+  "code": "SLE",
+  "name": "시에라리온",
+  "area": 71740,
+  "continent": "africa"
+ },
+ {
+  "code": "IRL",
+  "name": "아일랜드",
+  "area": 70273,
+  "continent": "europe"
+ },
+ {
+  "code": "GEO",
+  "name": "조지아",
+  "area": 69700,
+  "continent": "asia"
+ },
+ {
+  "code": "LKA",
+  "name": "스리랑카",
+  "area": 65610,
+  "continent": "asia"
+ },
+ {
+  "code": "LTU",
+  "name": "리투아니아",
+  "area": 65300,
+  "continent": "europe"
+ },
+ {
+  "code": "LVA",
+  "name": "라트비아",
+  "area": 64559,
+  "continent": "europe"
+ },
+ {
+  "code": "TGO",
+  "name": "토고",
+  "area": 56785,
+  "continent": "africa"
+ },
+ {
+  "code": "HRV",
+  "name": "크로아티아",
+  "area": 56594,
+  "continent": "europe"
+ },
+ {
+  "code": "BIH",
+  "name": "보스니아 헤르체고비나",
+  "area": 51209,
+  "continent": "europe"
+ },
+ {
+  "code": "CRI",
+  "name": "코스타리카",
+  "area": 51100,
+  "continent": "north-america"
+ },
+ {
+  "code": "SVK",
+  "name": "슬로바키아",
+  "area": 49037,
+  "continent": "europe"
+ },
+ {
+  "code": "DOM",
+  "name": "도미니카 공화국",
+  "area": 48671,
+  "continent": "north-america"
+ },
+ {
+  "code": "EST",
+  "name": "에스토니아",
+  "area": 45227,
+  "continent": "europe"
+ },
+ {
+  "code": "DNK",
+  "name": "덴마크",
+  "area": 43094,
+  "continent": "europe"
+ },
+ {
+  "code": "NLD",
+  "name": "네덜란드",
+  "area": 41850,
+  "continent": "europe"
+ },
+ {
+  "code": "CHE",
+  "name": "스위스",
+  "area": 41284,
+  "continent": "europe"
+ },
+ {
+  "code": "BTN",
+  "name": "부탄",
+  "area": 38394,
+  "continent": "asia"
+ },
+ {
+  "code": "TWN",
+  "name": "대만",
+  "area": 36193,
+  "continent": "asia"
+ },
+ {
+  "code": "GNB",
+  "name": "기니비사우",
+  "area": 36125,
+  "continent": "africa"
+ },
+ {
+  "code": "MDA",
+  "name": "몰도바",
+  "area": 33846,
+  "continent": "europe"
+ },
+ {
+  "code": "BEL",
+  "name": "벨기에",
+  "area": 30528,
+  "continent": "europe"
+ },
+ {
+  "code": "LSO",
+  "name": "레소토",
+  "area": 30355,
+  "continent": "africa"
+ },
+ {
+  "code": "ARM",
+  "name": "아르메니아",
+  "area": 29743,
+  "continent": "asia"
+ },
+ {
+  "code": "SLB",
+  "name": "솔로몬 제도",
+  "area": 28896,
+  "continent": "oceania"
+ },
+ {
+  "code": "ALB",
+  "name": "알바니아",
+  "area": 28748,
+  "continent": "europe"
+ },
+ {
+  "code": "GNQ",
+  "name": "적도 기니",
+  "area": 28051,
+  "continent": "africa"
+ },
+ {
+  "code": "BDI",
+  "name": "부룬디",
+  "area": 27834,
+  "continent": "africa"
+ },
+ {
+  "code": "HTI",
+  "name": "아이티",
+  "area": 27750,
+  "continent": "north-america"
+ },
+ {
+  "code": "RWA",
+  "name": "르완다",
+  "area": 26338,
+  "continent": "africa"
+ },
+ {
+  "code": "MKD",
+  "name": "북마케도니아",
+  "area": 25713,
+  "continent": "europe"
+ },
+ {
+  "code": "DJI",
+  "name": "지부티",
+  "area": 23200,
+  "continent": "africa"
+ },
+ {
+  "code": "BLZ",
+  "name": "벨리즈",
+  "area": 22966,
+  "continent": "north-america"
+ },
+ {
+  "code": "SLV",
+  "name": "엘살바도르",
+  "area": 21041,
+  "continent": "north-america"
+ },
+ {
+  "code": "ISR",
+  "name": "이스라엘",
+  "area": 20770,
+  "continent": "asia"
+ },
+ {
+  "code": "SVN",
+  "name": "슬로베니아",
+  "area": 20273,
+  "continent": "europe"
+ },
+ {
+  "code": "FJI",
+  "name": "피지",
+  "area": 18272,
+  "continent": "oceania"
+ },
+ {
+  "code": "KWT",
+  "name": "쿠웨이트",
+  "area": 17818,
+  "continent": "asia"
+ },
+ {
+  "code": "SWZ",
+  "name": "에스와티니",
+  "area": 17364,
+  "continent": "africa"
+ },
+ {
+  "code": "TLS",
+  "name": "동티모르",
+  "area": 14874,
+  "continent": "asia"
+ },
+ {
+  "code": "BHS",
+  "name": "바하마",
+  "area": 13943,
+  "continent": "north-america"
+ },
+ {
+  "code": "MNE",
+  "name": "몬테네그로",
+  "area": 13812,
+  "continent": "europe"
+ },
+ {
+  "code": "VUT",
+  "name": "바누아투",
+  "area": 12189,
+  "continent": "oceania"
+ },
+ {
+  "code": "QAT",
+  "name": "카타르",
+  "area": 11586,
+  "continent": "asia"
+ },
+ {
+  "code": "JAM",
+  "name": "자메이카",
+  "area": 10991,
+  "continent": "north-america"
+ },
+ {
+  "code": "XKX",
+  "name": "코소보",
+  "area": 10908,
+  "continent": "europe"
+ },
+ {
+  "code": "GMB",
+  "name": "감비아",
+  "area": 10689,
+  "continent": "africa"
+ },
+ {
+  "code": "LBN",
+  "name": "레바논",
+  "area": 10452,
+  "continent": "asia"
+ },
+ {
+  "code": "CYP",
+  "name": "키프로스",
+  "area": 9251,
+  "continent": "asia"
+ },
+ {
+  "code": "PSE",
+  "name": "팔레스타인",
+  "area": 6220,
+  "continent": "asia"
+ },
+ {
+  "code": "BRN",
+  "name": "브루나이",
+  "area": 5765,
+  "continent": "asia"
+ },
+ {
+  "code": "TTO",
+  "name": "트리니다드 토바고",
+  "area": 5130,
+  "continent": "south-america"
+ },
+ {
+  "code": "CPV",
+  "name": "카보베르데",
+  "area": 4033,
+  "continent": "africa"
+ },
+ {
+  "code": "WSM",
+  "name": "사모아",
+  "area": 2842,
+  "continent": "oceania"
+ },
+ {
+  "code": "LUX",
+  "name": "룩셈부르크",
+  "area": 2586,
+  "continent": "europe"
+ },
+ {
+  "code": "MUS",
+  "name": "모리셔스",
+  "area": 2040,
+  "continent": "africa"
+ },
+ {
+  "code": "COM",
+  "name": "코모로",
+  "area": 1862,
+  "continent": "africa"
+ },
+ {
+  "code": "STP",
+  "name": "상투메 프린시페",
+  "area": 964,
+  "continent": "africa"
+ },
+ {
+  "code": "KIR",
+  "name": "키리바시",
+  "area": 811,
+  "continent": "oceania"
+ },
+ {
+  "code": "BHR",
+  "name": "바레인",
+  "area": 765,
+  "continent": "asia"
+ },
+ {
+  "code": "DMA",
+  "name": "도미니카 연방",
+  "area": 751,
+  "continent": "north-america"
+ },
+ {
+  "code": "TON",
+  "name": "통가",
+  "area": 747,
+  "continent": "oceania"
+ },
+ {
+  "code": "SGP",
+  "name": "싱가포르",
+  "area": 710,
+  "continent": "asia"
+ },
+ {
+  "code": "FSM",
+  "name": "미크로네시아",
+  "area": 702,
+  "continent": "oceania"
+ },
+ {
+  "code": "LCA",
+  "name": "세인트루시아",
+  "area": 616,
+  "continent": "north-america"
+ },
+ {
+  "code": "AND",
+  "name": "안도라",
+  "area": 468,
+  "continent": "europe"
+ },
+ {
+  "code": "PLW",
+  "name": "팔라우",
+  "area": 459,
+  "continent": "oceania"
+ },
+ {
+  "code": "SYC",
+  "name": "세이셸",
+  "area": 452,
+  "continent": "africa"
+ },
+ {
+  "code": "ATG",
+  "name": "앤티가 바부다",
+  "area": 442,
+  "continent": "north-america"
+ },
+ {
+  "code": "BRB",
+  "name": "바베이도스",
+  "area": 430,
+  "continent": "north-america"
+ },
+ {
+  "code": "VCT",
+  "name": "세인트빈센트 그레나딘",
+  "area": 389,
+  "continent": "north-america"
+ },
+ {
+  "code": "GRD",
+  "name": "그레나다",
+  "area": 344,
+  "continent": "north-america"
+ },
+ {
+  "code": "MLT",
+  "name": "몰타",
+  "area": 316,
+  "continent": "europe"
+ },
+ {
+  "code": "MDV",
+  "name": "몰디브",
+  "area": 300,
+  "continent": "asia"
+ },
+ {
+  "code": "KNA",
+  "name": "세인트키츠 네비스",
+  "area": 261,
+  "continent": "north-america"
+ },
+ {
+  "code": "MHL",
+  "name": "마셜 제도",
+  "area": 181,
+  "continent": "oceania"
+ },
+ {
+  "code": "LIE",
+  "name": "리히텐슈타인",
+  "area": 160,
+  "continent": "europe"
+ },
+ {
+  "code": "SMR",
+  "name": "산마리노",
+  "area": 61,
+  "continent": "europe"
+ },
+ {
+  "code": "TUV",
+  "name": "투발루",
+  "area": 26,
+  "continent": "oceania"
+ },
+ {
+  "code": "NRU",
+  "name": "나우루",
+  "area": 21,
+  "continent": "oceania"
+ },
+ {
+  "code": "MCO",
+  "name": "모나코",
+  "area": 2.02,
+  "continent": "europe"
+ },
+ {
+  "code": "VAT",
+  "name": "바티칸",
+  "area": 0.44,
+  "continent": "europe"
+ }
+]
