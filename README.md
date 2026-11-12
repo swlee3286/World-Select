@@ -13,6 +13,14 @@ npm start          # python3 -m http.server 8000
 # http://localhost:8000 열기
 ```
 
+### 파일 하나로 묶기
+
+```sh
+npm run build:single   # dist/world-draw.html (코드·지도 데이터·스타일을 한 파일에)
+```
+
+서버 없이 파일을 바로 열어도 돼요. `dist/world-draw.fragment.html`은 문서 틀을 바깥에서 씌워 주는 곳(Claude 아티팩트 등)에 올리는 용도예요.
+
 ## 조작
 
 - **그리기**: 지도 위를 드래그하면 닫힌 모양이 돼요. 섬나라는 여러 번 그려도 돼요.
@@ -38,3 +46,4 @@ npm run build:vendor # vendor/ (d3, topojson) 다시 만들기
 | `src/hint.js` | 힌트 원 |
 | `src/map.js` | 지도 화면, 그리기 입력 |
 | `src/main.js` | 화면 흐름 |
+| `src/data.js` | 데이터 읽기 (한 파일 빌드 때는 `scripts/data-embedded.js`로 교체) |

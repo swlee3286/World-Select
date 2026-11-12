@@ -13,20 +13,24 @@
   --answer: #1f2328;
   --hint: #2563eb;
   --shadow: 0 6px 24px rgba(0, 0, 0, .12);
+  --danger: #c4453a;
+  --scrim: rgba(20, 22, 26, .45);
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #15171a; --surface: #1e2125; --text: #e8e6e1; --muted: #9aa0a6; --line: #33373d;
-    --ocean: #18232c; --land: #2b2e33; --land-line: #4a4f57; --accent: #5b8cff; --accent-text: #0b0d10;
+    --ocean: #131b23; --land: #3a3e45; --land-line: #5d636c; --accent: #5b8cff; --accent-text: #0b0d10;
     --draw: #ff6f9f; --answer: #f2f0ea; --hint: #7aa2ff; --shadow: 0 6px 24px rgba(0, 0, 0, .5);
+    --danger: #e0675c; --scrim: rgba(0, 0, 0, .6);
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #15171a; --surface: #1e2125; --text: #e8e6e1; --muted: #9aa0a6; --line: #33373d;
-  --ocean: #18232c; --land: #2b2e33; --land-line: #4a4f57; --accent: #5b8cff; --accent-text: #0b0d10;
+  --ocean: #131b23; --land: #3a3e45; --land-line: #5d636c; --accent: #5b8cff; --accent-text: #0b0d10;
   --draw: #ff6f9f; --answer: #f2f0ea; --hint: #7aa2ff; --shadow: 0 6px 24px rgba(0, 0, 0, .5);
+  --danger: #e0675c; --scrim: rgba(0, 0, 0, .6);
   color-scheme: dark;
 }
 
@@ -51,7 +55,7 @@ button.link { background: none; border: none; color: var(--muted); text-decorati
 .muted { color: var(--muted); }
 small { font-size: .8em; opacity: .8; }
 
-.screen { min-height: 100dvh; }
+.screen { min-height: 100%; }
 .loading { position: fixed; inset: 0; display: grid; place-items: center; color: var(--muted); }
 
 /* 시작 화면 */
@@ -84,7 +88,7 @@ small { font-size: .8em; opacity: .8; }
 .grade-badge.sm { width: 28px; height: 28px; font-size: 14px; }
 
 /* 게임 화면 */
-#game { display: flex; flex-direction: column; height: 100dvh; }
+#game { display: flex; flex-direction: column; height: 100%; }
 .bar { display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-bottom: 1px solid var(--line); background: var(--surface); }
 .bar-mid { flex: 1; display: flex; gap: 8px; align-items: baseline; font-weight: 600; }
 .bar-end { width: 120px; }
@@ -143,6 +147,13 @@ svg.map path, svg.map polygon, svg.map circle, svg.map polyline { vector-effect:
 .rank button { width: 100%; display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; text-align: left; padding: 6px 10px; }
 .cel-foot { display: flex; gap: 12px; justify-content: center; margin-top: 24px; flex-wrap: wrap; }
 .cel-map .country { cursor: pointer; }
+
+/* 확인 창 */
+.ask { position: fixed; inset: 0; z-index: 20; display: grid; place-items: center; padding: 16px; background: var(--scrim); }
+.ask-box { width: min(360px, 100%); background: var(--surface); border-radius: 14px; padding: 20px; box-shadow: var(--shadow); }
+.ask-box p { margin: 0 0 16px; font-size: 16px; }
+.ask-actions { display: flex; gap: 8px; justify-content: flex-end; }
+button.danger { background: var(--danger); border-color: var(--danger); color: #fff; font-weight: 600; }
 
 @media (max-width: 720px) {
   .cel-body { grid-template-columns: 1fr; }

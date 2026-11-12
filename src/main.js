@@ -3,6 +3,7 @@ import * as P from './progress.js';
 import { scoreDrawing, drawingToGeometry, finalScore, gradeOf } from './scoring.js';
 import { hintCircle } from './hint.js';
 import { MapView } from './map.js';
+import { loadData } from './data.js';
 
 const GRADE_COLOR = {
   S: '#17784f', A: '#3c9a5f', B: '#6f9a2e', C: '#b88a0f', D: '#d0702a', F: '#c4453a',
@@ -272,6 +273,25 @@ function union(a, b) {
   return [[Math.min(a[0][0], b[0][0]), Math.min(a[0][1], b[0][1])], [Math.max(a[1][0], b[1][0]), Math.max(a[1][1], b[1][1])]];
 }
 
+// 화면 안 확인 창. 브라우저 confirm()은 막힌 환경이 있어서 직접 만들어요.
+function ask(message, okLabel) {
+  const box = $('ask');
+  $('ask-msg').textContent = message;
+  $('ask-ok').textContent = okLabel;
+  box.hidden = false;
+  $('ask-cancel').focus();
+  return new Promise((resolve) => {
+    const done = (v) => {
+      box.hidden = true;
+      $('ask-ok').onclick = $('ask-cancel').onclick = box.onkeydown = null;
+      resolve(v);
+    };
+    $('ask-ok').onclick = () => done(true);
+    $('ask-cancel').onclick = () => done(false);
+    box.onkeydown = (e) => { if (e.key === 'Escape') done(false); };
+  });
+}
+
 let toastTimer;
 function toast(msg) {
   const t = $('toast');
@@ -305,15 +325,15 @@ function bind() {
   $('submit').addEventListener('click', submit);
   $('next').addEventListener('click', afterAnswer);
   $('cel-next').addEventListener('click', showNextCelebration);
-  $('cel-redo').addEventListener('click', () => {
-    if (!confirm(`${modeName(celId)}의 기록을 지우고 처음부터 다시 그릴까요?`)) return;
+  $('cel-redo').addEventListener('click', async () => {
+    if (!(await ask(`${modeName(celId)}의 기록을 지우고 처음부터 다시 그릴까요?`, '다시 그리기'))) return;
     P.resetContinent(save, countries, celId);
     persist();
     celQueue = [];
     startGame(celId);
   });
-  $('reset-all').addEventListener('click', () => {
-    if (!confirm('모든 기록을 지울까요? 되돌릴 수 없어요.')) return;
+  $('reset-all').addEventListener('click', async () => {
+    if (!(await ask('모든 기록을 지울까요? 되돌릴 수 없어요.', '모두 지우기'))) return;
     save = P.emptySave();
     persist();
     renderStart();
@@ -322,7 +342,7 @@ function bind() {
 
   let spacePan = false;
   document.addEventListener('keydown', (e) => {
-    if ($('game').hidden) return;
+    if ($('game').hidden || !$('ask').hidden) return;
     if (e.key === 'Enter') {
       e.preventDefault();
       if (answered) afterAnswer();
@@ -345,11 +365,10 @@ function bind() {
 }
 
 async function init() {
-  const [c, k, topo] = await Promise.all(
-    ['data/countries-ko.json', 'data/continents.json', 'data/world.topo.json'].map((u) => fetch(u).then((r) => r.json())),
-  );
-  countries = c;
-  continents = k;
+  const data = await loadData();
+  const { topo } = data;
+  countries = data.countries;
+  continents = data.continents;
   continentIds = continents.map((x) => x.id);
   shapes = new Map(feature(topo, topo.objects.countries).features.map((f) => [f.id, f.geometry]));
   land = feature(topo, topo.objects.land).features.map((f) => f.geometry);
