@@ -1,0 +1,8 @@
+[
+ { "id": "asia", "name": "아시아", "bounds": [25, -12, 150, 56] },
+ { "id": "europe", "name": "유럽", "bounds": [-25, 34, 60, 72] },
+ { "id": "africa", "name": "아프리카", "bounds": [-26, -36, 58, 38] },
+ { "id": "north-america", "name": "북아메리카", "bounds": [-170, 5, -50, 75] },
+ { "id": "south-america", "name": "남아메리카", "bounds": [-92, -56, -32, 14] },
+ { "id": "oceania", "name": "오세아니아", "bounds": [110, -48, 190, 5] }
+]

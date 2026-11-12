@@ -1,0 +1,32 @@
+{
+  "name": "world-draw",
+  "version": "1.0.0",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "node --test test/*.test.js",
+    "build:data": "node scripts/build-data.mjs",
+    "build:vendor": "esbuild scripts/d3-entry.js --bundle --format=esm --minify --outfile=vendor/d3.js && esbuild scripts/topo-entry.js --bundle --format=esm --minify --outfile=vendor/topojson-client.js",
+    "build:single": "node scripts/build-single.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swlee3286/World-Select.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swlee3286/World-Select/issues"
+  },
+  "homepage": "https://github.com/swlee3286/World-Select#readme",
+  "devDependencies": {
+    "d3": "^7.9.2",
+    "esbuild": "^0.28.2",
+    "topojson-client": "^3.1.0",
+    "topojson-server": "^3.0.1",
+    "world-atlas": "^2.0.2",
+    "world-countries": "^5.1.0"
+  },
+  "type": "module",
+  "private": true
+}

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>세계지도 그리기</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">
+    { "imports": { "d3": "./vendor/d3.js", "topojson-client": "./vendor/topojson-client.js" } }
+  </script>
+  <script type="module" src="src/main.js"></script>
+</head>
+<body>
+  <main id="start" class="screen" hidden>
+    <header class="start-head">
+      <h1>세계지도 그리기</h1>
+      <p>나라 이름을 보고 지도 위에 그 나라를 그려요. 어느 대륙에서 그리든 같은 세계지도가 채워져요.</p>
+    </header>
+    <div id="modes" class="modes"></div>
+    <footer class="start-foot">
+      <button id="reset-all" class="link">기록 모두 지우기</button>
+    </footer>
+  </main>
+
+  <main id="game" class="screen" hidden>
+    <header class="bar">
+      <button id="back" class="ghost" aria-label="대륙 선택으로">← 대륙 선택</button>
+      <div class="bar-mid">
+        <span id="mode-name"></span>
+        <span id="mode-progress" class="muted"></span>
+      </div>
+      <div class="bar-end"><div class="meter"><div id="mode-meter"></div></div></div>
+    </header>
+    <div class="question" id="question" aria-live="polite"></div>
+    <div class="map-wrap">
+      <svg id="map" role="img" aria-label="세계지도"></svg>
+      <div id="toast" class="toast" hidden></div>
+    </div>
+    <nav class="tools" id="tools">
+      <div class="seg" role="group" aria-label="입력 방식">
+        <button id="tool-draw" class="on" aria-pressed="true">그리기</button>
+        <button id="tool-pan" aria-pressed="false">이동</button>
+      </div>
+      <button id="undo">되돌리기</button>
+      <button id="clear">지우기</button>
+      <button id="fit">대륙 맞춤</button>
+      <button id="hint">힌트 <small>−20%</small></button>
+      <button id="skip">건너뛰기</button>
+      <button id="submit" class="primary">제출</button>
+    </nav>
+    <section id="result" class="result" hidden>
+      <div class="result-main">
+        <div id="result-grade" class="grade-badge"></div>
+        <div>
+          <div id="result-name" class="result-name"></div>
+          <div id="result-score" class="muted"></div>
+        </div>
+      </div>
+      <div class="legend"><span class="sw sw-answer"></span>실제 국경 <span class="sw sw-draw"></span>내 그림</div>
+      <button id="next" class="primary">다음</button>
+    </section>
+  </main>
+
+  <main id="celebrate" class="screen celebrate" hidden>
+    <header class="cel-head">
+      <p id="cel-kicker" class="muted"></p>
+      <h1 id="cel-title"></h1>
+      <div class="cel-score"><span id="cel-grade" class="grade-badge big"></span><span id="cel-avg"></span></div>
+      <div id="cel-continents" class="chips"></div>
+    </header>
+    <div class="cel-body">
+      <section class="cel-map">
+        <h2>내 그림과 실제 지도 비교</h2>
+        <div class="map-wrap small"><svg id="cel-map" role="img" aria-label="비교 지도"></svg></div>
+        <div id="cel-focus" class="muted cel-focus">나라를 누르면 그 나라만 크게 비교해요.</div>
+        <div class="legend"><span class="sw sw-answer"></span>실제 국경(등급 색) <span class="sw sw-draw"></span>내 그림</div>
+      </section>
+      <section class="cel-lists">
+        <div><h2>잘 그린 나라</h2><ol id="cel-best" class="rank"></ol></div>
+        <div><h2>못 그린 나라</h2><ol id="cel-worst" class="rank"></ol></div>
+      </section>
+    </div>
+    <footer class="cel-foot">
+      <button id="cel-redo" class="ghost">이 대륙 다시 그리기</button>
+      <button id="cel-next" class="primary">대륙 선택으로</button>
+    </footer>
+  </main>
+
+  <div id="ask" class="ask" role="dialog" aria-modal="true" aria-labelledby="ask-msg" hidden>
+    <div class="ask-box">
+      <p id="ask-msg"></p>
+      <div class="ask-actions">
+        <button id="ask-cancel">취소</button>
+        <button id="ask-ok" class="danger"></button>
+      </div>
+    </div>
+  </div>
+
+  <div id="loading" class="loading">지도를 불러오는 중…</div>
+</body>
+</html>
